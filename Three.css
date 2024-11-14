@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #222;
+    
+    
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(112deg, #26d6cd, rgb(129, 173, 231), #38e695);
+    margin: 20px 20px;
+    border-radius: 10px;
+    padding: 120px ;
+    flex-direction: column;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.search input{
+      border: 0;
+      outline: 0;
+      background: #ebfffc;
+      color: #555;
+      padding: 10px 25px;
+      border-radius: 30px;
+      flex: 1;
+      margin: 16px;
+      height: 60px;
+      font-size: 16px;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+
+}
+
+
+.search button img{
+    width: 16px;
+
+}
+
+.weather{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.weather .city{
+    padding: 12px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 5vh;
+    color: aliceblue;
+}
+
+.weather .temp{
+    padding: 10px;
+    font-size: 7vh;
+    color: aliceblue;
+}
+
+.weather-icon{
+   width: 170px;
+   margin-top: 30px;
+}
+
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    color: #ebfffc;
+  
+}
+
+.col{
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+ 
+}
+
+.col img{
+    width: 9vh;
+    margin: 30px;
+}
+
+
+
+.humidity , .wind{
+    font-size: 30px;
+    margin-top: -6px;
+ 
+}
+
+
+/* .weather, .details{
+    display: none;
+}
+
+.error{
+    color: #ebfffc;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 10px;
+} */
